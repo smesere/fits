@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: consolas;
+  display: flex;
 }
 body {
     display: flex;
@@ -11,12 +12,14 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #121213;
+  display: flex;
 }
 .loader
 {
     position: relative;
     -webkit-box-reflect: below-28px linear-gradient
     (transparent,#0002);
+  display: flex;
 }
 .loader::before
 {
@@ -28,6 +31,7 @@ body {
     height: 100%;
     background: #03e9f4;
     animation: blinkcukrsor 0.8s steps(3) infinite;
+  display: flex;
 }
 @keyframes blinkcukrsor
 {
@@ -48,6 +52,8 @@ body {
     font-size: 4em;
     text-transform: uppercase;
     animation: typing 8s steps(23) infinite;
+    
+  display: flex;
 }
 @keyframes typing
 {
@@ -69,6 +75,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
+  display: flex;
 }
 section
 {
@@ -80,6 +87,7 @@ section
     background-size: cover;
     background-position: center;
     padding: 50px;
+  display: flex;
 }
 .container
 {
@@ -94,6 +102,7 @@ section
     justify-content: space-between;
     align-content: center;
     padding: 50px;
+  display: flex;
 }
 header
 {
@@ -112,6 +121,7 @@ header
     border: 1px solid rgba(255,255,255,0.25);
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
+  display: flex;
 }
 header .logo
 {
@@ -119,15 +129,18 @@ header .logo
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
+  display: flex;
 }
 header ul
 {
     display: flex;
+  display: flex;
 }
 header ul li
 {
     list-style: none;
     margin: 0 10px;
+  display: flex;
 }
 header ul li a
 {
@@ -136,12 +149,14 @@ header ul li a
     color: #8a2435;
     padding: 8px 15px;
     border-radius: 25px;
+  display: flex;
 }
 header ul li a:hover,
 header ul li a.active
 {
     background: #fff;
     box-shadow: 0.5px 10px rgba(0,0,0,0.1);
+  display: flex;
 }
 .content
 {
@@ -155,16 +170,19 @@ header ul li a.active
     border-left: 1px solid rgba(255,255,255,0.5);
     padding: 40px;
     padding-left: 110px;
+  display: flex;
 }
 .content .loader h2
 {
     font-size: 3em;
     color: #8a2435;
+  display: flex;
 }
 .content p
 {
     font-size: 1.2em;
     color: #8a2435;
+  display: flex;
 }
 .content a
 {
@@ -178,11 +196,13 @@ header ul li a.active
     font-weight: 500;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  display: flex;
 }
 .imgBx img
 {
     max-width: 400px;
     animation: animate 5s linear infinite;
+  display: flex;
 }
 @keyframes animate
 {
@@ -203,10 +223,12 @@ header ul li a.active
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  display: flex;
 }
 .sci li
 {
     list-style: none;
+  display: flex;
 }
 .sci li a 
 {
@@ -220,15 +242,18 @@ header ul li a.active
     border-radius: 50%;
     margin: 5px 0;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  display: flex;
 }
 .sci li a img
 {
     transform: scale(0.6);
     transition: 0.5s;
+  display: flex;
 }
 .sci li:hover a img
 {
     transform: scale(0.6) rotate(360deg);
+  display: flex;
 }
 .copyrightText
 {
@@ -236,4 +261,5 @@ header ul li a.active
     bottom: 30px;
     left: 50px;
     color: #8a2435;
+  display: flex;
 }

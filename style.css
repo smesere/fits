@@ -260,3 +260,7 @@ header ul li a.active
     color: #8a2435;
 
 }
+html{
+    
+  display: flex;
+}
